@@ -99,7 +99,7 @@ header .left a span{
 }
 
 header img{
-    width: 600px;
+    width: 1000px;
 }
 
 h2.separator{
@@ -351,6 +351,60 @@ footer .right .social i:hover{
 footer .right p{
     font-size: 13px;
     color: #777;
+}
+
+@media screen and (max-width: 2200px) {
+    
+    header .left h1{
+        font-size: 50px;
+    }
+
+    header img{
+        width: 800px;
+    }
+
+    h2.separator{
+        font-size: 34px;
+    }
+
+    .sell-nft .item .header i{
+        font-size: 36px;
+    }
+
+    .sell-nft .item .header h5{
+        font-size: 15px;
+    }
+
+    .sell-nft .item p{
+        font-size: 13px;
+    }
+
+    .nft-shop .nft-list{
+        flex-wrap: wrap;
+        row-gap: 30px;
+    }
+
+    .nft-shop .nft-list .item{
+        width: 48%;
+    }
+
+    .nft-shop .nft-list .item img{
+        width: 100%;
+        height: auto;
+    }
+
+    .sellers{
+        flex-wrap: wrap;
+    }
+
+    .sellers .item{
+        width: 48%;
+    }
+
+    footer .links a{
+        font-size: 15px;
+    }
+
 }
 
 @media screen and (max-width: 1400px) {
